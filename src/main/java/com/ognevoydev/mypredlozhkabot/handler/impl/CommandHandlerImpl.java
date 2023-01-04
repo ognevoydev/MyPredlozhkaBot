@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 import static com.ognevoydev.mypredlozhkabot.constants.ReplyMessages.*;
+import static com.ognevoydev.mypredlozhkabot.utils.Utils.generateMessage;
 
 @Component
 public class CommandHandlerImpl implements CommandHandler {
@@ -25,14 +26,4 @@ public class CommandHandlerImpl implements CommandHandler {
         return generateMessage(UNKNOWN_REPLY, chatId);
     }
 
-    public static Reply<SendMessage> generateMessage(String message, long chatId) {
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.setText(message);
-        sendMessage.setChatId(chatId);
-
-        Reply<SendMessage> reply = new Reply<SendMessage>();
-        reply.setMessage(sendMessage);
-
-        return reply;
-    }
 }

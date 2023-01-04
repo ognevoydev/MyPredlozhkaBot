@@ -15,5 +15,7 @@ public class ReplyMessages {
 
     public final static String UNKNOWN_REPLY = "Бот принимает посты только с картинками или видео.";
 
-    public final static String SUGGESTION_REPLY = "Прислал %s через @MyPredlozhkaBot";
+    public final static String ADMIN_POST_REPLY = "Прислал %s через @MyPredlozhkaBot.";
+
+    public final static String POST_REPLY = "Ваш пост успешно принят.";
 }
