@@ -29,7 +29,7 @@ public class MyPredlozhkaBot extends TelegramLongPollingBot {
         Optional<Reply<?>> message = updateHandler.handle(update);
         message.ifPresent(
                 value -> {
-                    chatManager.sendMessage(this, value);
+                    chatManager.sendMessage(this, value, update.getMessage());
                 }
         );
     }

@@ -5,6 +5,7 @@ import com.ognevoydev.mypredlozhkabot.handler.api.MessageHandler;
 import com.ognevoydev.mypredlozhkabot.handler.api.PostHandler;
 import com.ognevoydev.mypredlozhkabot.model.Reply;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -22,6 +23,7 @@ public class MessageHandlerImpl implements MessageHandler {
     @Autowired
     private CommandHandler commandHandler;
     @Autowired
+    @Qualifier("mainPostHandler")
     private PostHandler postHandler;
 
     @Override
