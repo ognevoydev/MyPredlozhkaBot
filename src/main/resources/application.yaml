@@ -1,0 +1,3 @@
+bot:
+  name: MyPredlozhkaBot
+  token: ${BOT_TOKEN}
