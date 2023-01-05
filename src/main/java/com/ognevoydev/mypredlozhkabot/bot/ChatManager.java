@@ -11,7 +11,7 @@ import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import static com.ognevoydev.mypredlozhkabot.constants.ReplyMessages.POST_REPLY;
-import static com.ognevoydev.mypredlozhkabot.utils.Utils.generateMessage;
+import static com.ognevoydev.mypredlozhkabot.utils.generator.ReplyGenerator.generateReply;
 
 @Slf4j
 @Component
@@ -42,7 +42,7 @@ public class ChatManager {
             }
             long chatId = userMessage.getChatId();
             int userMessageId = userMessage.getMessageId();
-            bot.execute(generateMessage(POST_REPLY, chatId, userMessageId).getMessage());
+            bot.execute(generateReply(POST_REPLY, chatId, userMessageId).getMessage());
         }
     }
 
