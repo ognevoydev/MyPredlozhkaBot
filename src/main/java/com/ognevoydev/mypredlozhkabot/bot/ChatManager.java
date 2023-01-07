@@ -11,6 +11,7 @@ import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import static com.ognevoydev.mypredlozhkabot.constants.ReplyMessages.POST_REPLY;
+import static com.ognevoydev.mypredlozhkabot.utils.Utils.*;
 import static com.ognevoydev.mypredlozhkabot.utils.generator.ReplyGenerator.generateReply;
 
 @Slf4j
@@ -27,19 +28,19 @@ public class ChatManager {
     }
 
     private void send(MyPredlozhkaBot bot, Reply<?> message, Message userMessage) throws TelegramApiException{
-        if(message.getMessage().getClass().equals(SendMessage.class)) {
+        if(isSendMessage(message.getMessage().getClass())) {
             bot.execute((SendMessage) message.getMessage());
         }
         else {
-            if(message.getMessage().getClass().equals(SendPhoto.class)) {
+            if(isSendPhoto(message.getMessage().getClass())) {
                 bot.execute((SendPhoto) message.getMessage());
             }
-            if(message.getMessage().getClass().equals(SendVideo.class)) {
+            if(isSendVideo(message.getMessage().getClass())) {
                 bot.execute((SendVideo) message.getMessage());
             }
-            if(message.getMessage().getClass().equals(SendMediaGroup.class)) {
-                bot.execute((SendMediaGroup) message.getMessage());
-            }
+//            if(isMediaGroup(userMessage.getMediaGroupId())) {
+//                bot.execute((SendMediaGroup) message.getMessage());
+//            }
             long chatId = userMessage.getChatId();
             int userMessageId = userMessage.getMessageId();
             bot.execute(generateReply(POST_REPLY, chatId, userMessageId).getMessage());

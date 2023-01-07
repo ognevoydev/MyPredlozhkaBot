@@ -5,11 +5,11 @@ import org.telegram.telegrambots.meta.api.methods.send.SendVideo;
 
 public class SendVideoGenerator {
 
-    public static SendVideo generate(Media media, String caption, long adminId) {
+    public static SendVideo generate(Media media, long adminId) {
         SendVideo sendVideo = new SendVideo();
         sendVideo.setVideo(media.getFile());
         sendVideo.setChatId(adminId);
-        sendVideo.setCaption(caption);
+        sendVideo.setCaption(media.getCaption());
 
         return sendVideo;
     }

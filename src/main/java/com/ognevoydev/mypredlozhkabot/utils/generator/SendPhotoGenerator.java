@@ -8,11 +8,11 @@ import static com.ognevoydev.mypredlozhkabot.utils.generator.ReplyGenerator.gene
 
 public class SendPhotoGenerator {
 
-    public static SendPhoto generate(Media media, String caption, long adminId) {
+    public static SendPhoto generate(Media media, long adminId) {
         SendPhoto sendPhoto = new SendPhoto();
         sendPhoto.setPhoto(media.getFile());
         sendPhoto.setChatId(adminId);
-        sendPhoto.setCaption(caption);
+        sendPhoto.setCaption(media.getCaption());
 
         return sendPhoto;
     }
