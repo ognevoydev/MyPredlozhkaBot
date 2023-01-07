@@ -1,5 +1,8 @@
 package com.ognevoydev.mypredlozhkabot.utils;
 
+import com.ognevoydev.mypredlozhkabot.model.MediaType;
+import com.ognevoydev.mypredlozhkabot.model.MessageType;
+import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.methods.send.SendVideo;
@@ -9,18 +12,26 @@ import org.telegram.telegrambots.meta.api.objects.PhotoSize;
 import java.util.Comparator;
 import java.util.List;
 
+import static com.ognevoydev.mypredlozhkabot.model.MediaType.*;
+import static com.ognevoydev.mypredlozhkabot.model.MessageType.MEDIA;
+import static com.ognevoydev.mypredlozhkabot.model.MessageType.TEXT;
+
 public class Utils {
 
-    public static boolean isMessageContainsMedia(Message message) {
-        return message.hasPhoto() || message.hasVideo();
+    public static MessageType getMessageType(Message message) {
+        if(message.hasPhoto() || message.hasVideo() || message.hasAnimation())
+            return MEDIA;
+        else
+            return TEXT;
     }
 
-    public static boolean isMessageContainsText(Message message) {
-        return message.hasText();
-    }
-
-    public static boolean isMessageContainsPhoto(Message message) {
-        return message.hasPhoto();
+    public static MediaType getMediaType(Message message) {
+        if(message.hasPhoto())
+            return PHOTO;
+        if(message.hasVideo())
+            return VIDEO;
+        else
+            return ANIMATION;
     }
 
     public static boolean isSendMessage(Class<?> clazz) {
@@ -35,11 +46,12 @@ public class Utils {
         return clazz.equals(SendVideo.class);
     }
 
-    public static boolean isMediaGroup(String mediaGroupId) {
-        return mediaGroupId != null;
+    public static boolean isSendAnimation(Class<?> clazz) {
+        return clazz.equals(SendAnimation.class);
     }
 
-    public static String getMaxSizePhoto(List<PhotoSize> photos) {
+
+        public static String getMaxSizePhoto(List<PhotoSize> photos) {
         photos.sort(Comparator.comparing(PhotoSize::getFileSize).reversed());
         return photos.get(0).getFileId();
     }
