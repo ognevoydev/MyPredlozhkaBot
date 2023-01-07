@@ -3,7 +3,7 @@ package com.ognevoydev.mypredlozhkabot.bot;
 import com.ognevoydev.mypredlozhkabot.model.Reply;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.meta.api.methods.send.SendMediaGroup;
+import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.methods.send.SendVideo;
@@ -38,9 +38,9 @@ public class ChatManager {
             if(isSendVideo(message.getMessage().getClass())) {
                 bot.execute((SendVideo) message.getMessage());
             }
-//            if(isMediaGroup(userMessage.getMediaGroupId())) {
-//                bot.execute((SendMediaGroup) message.getMessage());
-//            }
+            if(isSendAnimation(message.getMessage().getClass())) {
+                bot.execute((SendAnimation) message.getMessage());
+            }
             long chatId = userMessage.getChatId();
             int userMessageId = userMessage.getMessageId();
             bot.execute(generateReply(POST_REPLY, chatId, userMessageId).getMessage());
