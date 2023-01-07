@@ -9,6 +9,7 @@ import org.telegram.telegrambots.meta.api.objects.InputFile;
 @Setter
 @AllArgsConstructor
 public class Media {
+    String caption;
     InputFile file;
     MediaType type;
 }

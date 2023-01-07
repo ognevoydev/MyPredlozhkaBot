@@ -22,15 +22,15 @@ public class ReplyGenerator {
         return reply;
     }
 
-    public static Reply<?> generateReply(Media media, String caption, long adminId) {
+    public static Reply<?> generateReply(Media media, long adminId) {
         if(media.getType() == PHOTO) {
             Reply<SendPhoto> reply = new Reply<SendPhoto>();
-            reply.setMessage(SendPhotoGenerator.generate(media, caption, adminId));
+            reply.setMessage(SendPhotoGenerator.generate(media, adminId));
             return reply;
         }
         else {
             Reply<SendVideo> reply = new Reply<SendVideo>();
-            reply.setMessage(SendVideoGenerator.generate(media, caption, adminId));
+            reply.setMessage(SendVideoGenerator.generate(media, adminId));
             return reply;
         }
     }
