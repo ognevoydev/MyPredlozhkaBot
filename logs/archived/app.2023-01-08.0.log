@@ -1,0 +1,184 @@
+2023-01-08 16:07:30,606 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 14224 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 16:07:30,611 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 16:07:30,612 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 16:07:33,252 INFO [main] Started MypredlozhkabotApplication in 3.52 seconds (process running for 5.255)
+2023-01-08 17:28:12,296 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 9012 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 17:28:12,298 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 17:28:12,300 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 17:28:14,164 INFO [main] Started MypredlozhkabotApplication in 2.415 seconds (process running for 3.292)
+2023-01-08 17:36:34,384 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 17896 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 17:36:34,387 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 17:36:34,388 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 17:36:35,288 ERROR [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'bot.admin-id' to long:
+
+    Property: bot.admin-id
+    Value: ""
+    Origin: class path resource [application.yaml] - 4:12
+    Reason: failed to convert java.lang.String to long (caused by java.lang.IllegalArgumentException: A null value cannot be assigned to a primitive type)
+
+Action:
+
+Update your application's configuration
+
+2023-01-08 17:36:50,904 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 3988 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 17:36:50,906 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 17:36:50,907 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 17:36:52,749 INFO [main] Started MypredlozhkabotApplication in 2.346 seconds (process running for 3.07)
+2023-01-08 17:37:04,725 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Error executing org.telegram.telegrambots.meta.api.methods.send.SendPhoto query: [400] Bad Request: can't use file of type Animation as Photo
+2023-01-08 17:38:53,444 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 4624 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 17:38:53,446 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 17:38:53,447 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 17:38:55,241 INFO [main] Started MypredlozhkabotApplication in 2.269 seconds (process running for 2.935)
+2023-01-08 17:39:09,977 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Error executing org.telegram.telegrambots.meta.api.methods.send.SendPhoto query: [400] Bad Request: can't use file of type Video as Photo
+2023-01-08 17:42:02,258 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 12120 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 17:42:02,260 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 17:42:02,262 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 17:42:04,093 INFO [main] Started MypredlozhkabotApplication in 2.354 seconds (process running for 3.041)
+2023-01-08 17:42:04,458 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Error executing org.telegram.telegrambots.meta.api.methods.send.SendPhoto query: [400] Bad Request: can't use file of type Video as Photo
+2023-01-08 18:00:59,952 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 8468 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 18:00:59,954 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 18:00:59,955 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 18:01:01,635 INFO [main] Started MypredlozhkabotApplication in 2.15 seconds (process running for 2.826)
+2023-01-08 18:54:47,504 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 2704 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 18:54:47,506 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 18:54:47,506 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 18:54:47,826 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication.main(MypredlozhkabotApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainPostHandler' for bean class [com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler] conflicts with existing, non-compatible bean definition of same name and class [com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 12 common frames omitted
+2023-01-08 18:56:34,544 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 11076 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 18:56:34,546 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 18:56:34,547 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 18:56:34,722 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication.main(MypredlozhkabotApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainPostHandler' for bean class [com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler] conflicts with existing, non-compatible bean definition of same name and class [com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 12 common frames omitted
+2023-01-08 19:02:30,206 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18120 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 19:02:30,208 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 19:02:30,209 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 19:02:30,467 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication.main(MypredlozhkabotApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainPostHandler' for bean class [com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler] conflicts with existing, non-compatible bean definition of same name and class [com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 12 common frames omitted
+2023-01-08 19:04:16,317 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 16576 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 19:04:16,320 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 19:04:16,321 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 19:04:16,601 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication.main(MypredlozhkabotApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainPostHandler' for bean class [com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler] conflicts with existing, non-compatible bean definition of same name and class [com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 12 common frames omitted
+2023-01-08 19:04:24,881 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 12476 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-08 19:04:24,884 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-08 19:04:24,885 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 19:04:25,144 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ognevoydev.mypredlozhkabot.MypredlozhkabotApplication.main(MypredlozhkabotApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mainPostHandler' for bean class [com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler] conflicts with existing, non-compatible bean definition of same name and class [com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 12 common frames omitted

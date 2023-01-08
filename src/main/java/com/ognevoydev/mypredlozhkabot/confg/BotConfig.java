@@ -8,9 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Data
 @ConfigurationProperties(prefix = "bot")
 public class BotConfig {
-
     private String name;
     private String token;
     private long adminId;
-
 }

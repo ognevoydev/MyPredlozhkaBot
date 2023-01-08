@@ -1,7 +1,6 @@
 package com.ognevoydev.mypredlozhkabot.constants;
 
 public interface ReplyMessages {
-
     String START_REPLY = """
             Привет! Здесь ты можешь отправить пост, который, в случае одобрения,\
             будет опубликован в канале. Бот принимает посты только с картинками и видео. \
@@ -19,5 +18,4 @@ public interface ReplyMessages {
     String ADMIN_POST_REPLY = "Прислал %s через @MyPredlozhkaBot.";
 
     String POST_REPLY = "Ваш пост успешно принят.";
-
 }

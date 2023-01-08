@@ -9,7 +9,6 @@ import org.telegram.telegrambots.meta.api.objects.InputFile;
 @Setter
 @AllArgsConstructor
 public class Media {
-
     private String caption;
     private InputFile file;
     private MediaType type;
@@ -17,5 +16,4 @@ public class Media {
     public enum MediaType {
         PHOTO, VIDEO, ANIMATION
     }
-
 }

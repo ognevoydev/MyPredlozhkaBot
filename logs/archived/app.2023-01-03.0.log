@@ -1527,7 +1527,11 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "mediaFile" is null
 	at org.telegram.telegrambots.meta.api.objects.InputFile.<init>(InputFile.java:64)
 	at com.ognevoydev.mypredlozhkabot.utils.Utils.generateSuggestion(Utils.java:32)
+<<<<<<< HEAD
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(SuggestionHandlerImpl.java:53)
+=======
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(SuggestionHandlerImpl.java:53)
+>>>>>>> master
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:39)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -1547,7 +1551,11 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "
 java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "mediaFile" is null
 	at org.telegram.telegrambots.meta.api.objects.InputFile.<init>(InputFile.java:64)
 	at com.ognevoydev.mypredlozhkabot.utils.Utils.generateSuggestion(Utils.java:32)
+<<<<<<< HEAD
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(SuggestionHandlerImpl.java:53)
+=======
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(SuggestionHandlerImpl.java:53)
+>>>>>>> master
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:39)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -1601,7 +1609,11 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "
 java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "mediaFile" is null
 	at org.telegram.telegrambots.meta.api.objects.InputFile.<init>(InputFile.java:64)
 	at com.ognevoydev.mypredlozhkabot.utils.Utils.generateSuggestion(Utils.java:32)
+<<<<<<< HEAD
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+=======
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+>>>>>>> master
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:39)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -1613,7 +1625,11 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "
 java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "mediaFile" is null
 	at org.telegram.telegrambots.meta.api.objects.InputFile.<init>(InputFile.java:64)
 	at com.ognevoydev.mypredlozhkabot.utils.Utils.generateSuggestion(Utils.java:32)
+<<<<<<< HEAD
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+=======
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+>>>>>>> master
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:39)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -1633,7 +1649,11 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "
 java.lang.NullPointerException: Cannot invoke "java.io.File.getName()" because "mediaFile" is null
 	at org.telegram.telegrambots.meta.api.objects.InputFile.<init>(InputFile.java:64)
 	at com.ognevoydev.mypredlozhkabot.utils.Utils.generateSuggestion(Utils.java:33)
+<<<<<<< HEAD
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+=======
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(SuggestionHandlerImpl.java:48)
+>>>>>>> master
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:39)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
