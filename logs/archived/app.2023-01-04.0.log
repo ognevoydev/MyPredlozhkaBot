@@ -1,0 +1,612 @@
+2023-01-04 16:09:05,373 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18040 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:09:05,380 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:09:05,381 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:09:07,448 INFO [main] Started MypredlozhkabotApplication in 2.732 seconds (process running for 3.721)
+2023-01-04 16:09:28,492 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 16:11:31,520 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 16:13:36,245 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 13600 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:13:36,249 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:13:36,250 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:13:38,400 INFO [main] Started MypredlozhkabotApplication in 2.791 seconds (process running for 3.831)
+2023-01-04 16:15:40,890 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 16:17:43,650 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 16:21:14,902 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18996 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:21:14,904 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:21:14,907 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:21:16,745 ERROR [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field postHandler in com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl required a single bean, but 3 were found:
+	- mainPostHandler: defined in file [C:\Users\User\Desktop\MyPredlozhkaBot\target\classes\com\ognevoydev\mypredlozhkabot\handler\impl\post\MainPostHandler.class]
+	- photoPostHandler: defined in file [C:\Users\User\Desktop\MyPredlozhkaBot\target\classes\com\ognevoydev\mypredlozhkabot\handler\impl\post\PhotoPostHandler.class]
+	- videoPostHandler: defined in file [C:\Users\User\Desktop\MyPredlozhkaBot\target\classes\com\ognevoydev\mypredlozhkabot\handler\impl\post\VideoPostHandler.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2023-01-04 16:22:03,358 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 6104 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:22:03,363 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:22:03,365 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:22:26,246 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 16:22:26,259 INFO [main] Started MypredlozhkabotApplication in 23.629 seconds (process running for 24.553)
+2023-01-04 16:22:57,128 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 10436 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:22:57,131 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:22:57,133 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:23:20,098 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 16:23:20,114 INFO [main] Started MypredlozhkabotApplication in 23.673 seconds (process running for 24.642)
+2023-01-04 16:23:33,063 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 10264 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:23:33,066 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:23:33,067 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:23:56,036 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 16:23:56,056 INFO [main] Started MypredlozhkabotApplication in 23.649 seconds (process running for 24.596)
+2023-01-04 16:24:02,054 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 11580 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:24:02,057 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:24:02,058 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:24:04,446 INFO [main] Started MypredlozhkabotApplication in 3.059 seconds (process running for 4.016)
+2023-01-04 16:27:41,594 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 20516 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:27:41,597 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:27:41,599 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:27:44,059 INFO [main] Started MypredlozhkabotApplication in 3.102 seconds (process running for 3.997)
+2023-01-04 16:48:58,192 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18260 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 16:48:58,194 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 16:48:58,196 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 16:49:00,522 INFO [main] Started MypredlozhkabotApplication in 3.044 seconds (process running for 4.005)
+2023-01-04 17:12:33,032 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 8184 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:12:33,034 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:12:33,036 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:12:56,008 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:12:56,025 INFO [main] Started MypredlozhkabotApplication in 23.653 seconds (process running for 24.59)
+2023-01-04 17:13:10,395 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18584 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:13:10,398 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:13:10,400 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:13:12,729 INFO [main] Started MypredlozhkabotApplication in 3.008 seconds (process running for 3.933)
+2023-01-04 17:16:05,355 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 7592 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:16:05,358 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:16:05,361 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:16:07,733 INFO [main] Started MypredlozhkabotApplication in 3.041 seconds (process running for 3.943)
+2023-01-04 17:17:39,834 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Unable to execute sendmessage method
+2023-01-04 17:18:00,876 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Unable to execute sendmessage method
+2023-01-04 17:24:22,955 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 17:28:23,292 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 9380 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:28:23,295 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:28:23,296 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:28:46,259 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:28:46,276 INFO [main] Started MypredlozhkabotApplication in 23.688 seconds (process running for 24.673)
+2023-01-04 17:29:02,887 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 756 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:29:02,890 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:29:02,891 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:29:05,288 INFO [main] Started MypredlozhkabotApplication in 3.067 seconds (process running for 3.971)
+2023-01-04 17:34:36,900 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 17:34:58,451 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 17:37:01,251 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 17:38:13,160 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 4764 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:38:13,162 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:38:13,164 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:38:36,160 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:38:36,177 INFO [main] Started MypredlozhkabotApplication in 23.683 seconds (process running for 24.597)
+2023-01-04 17:38:43,190 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 7612 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:38:43,193 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:38:43,195 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:39:06,194 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:39:06,214 INFO [main] Started MypredlozhkabotApplication in 23.688 seconds (process running for 24.607)
+2023-01-04 17:39:12,128 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 10352 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:39:12,131 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:39:12,134 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:39:35,016 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:39:35,031 INFO [main] Started MypredlozhkabotApplication in 23.539 seconds (process running for 24.428)
+2023-01-04 17:39:41,169 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 12516 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:39:41,172 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:39:41,174 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:40:04,123 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 17:40:04,139 INFO [main] Started MypredlozhkabotApplication in 23.689 seconds (process running for 24.602)
+2023-01-04 17:40:19,435 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 19028 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:40:19,437 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:40:19,439 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:40:40,311 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 5864 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 17:40:40,315 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 17:40:40,316 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 17:40:42,549 INFO [main] Started MypredlozhkabotApplication in 2.937 seconds (process running for 3.861)
+2023-01-04 18:19:07,230 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 20068 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:19:07,233 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:19:07,235 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:19:23,589 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 17192 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:19:23,592 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:19:23,593 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:19:25,924 INFO [main] Started MypredlozhkabotApplication in 3.0 seconds (process running for 3.96)
+2023-01-04 18:20:14,733 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 4288 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:20:14,737 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:20:14,739 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:20:23,249 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 20752 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:20:23,252 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:20:23,254 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:20:42,358 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 13964 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:20:42,362 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:20:42,363 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:21:01,866 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 4468 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:21:01,868 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:21:01,870 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:21:24,800 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 18:21:24,819 INFO [main] Started MypredlozhkabotApplication in 23.613 seconds (process running for 24.545)
+2023-01-04 18:21:30,052 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 13352 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:21:30,054 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:21:30,056 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:21:45,368 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 19320 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:21:45,370 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:21:45,372 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:22:08,257 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 18:22:08,273 INFO [main] Started MypredlozhkabotApplication in 23.621 seconds (process running for 24.579)
+2023-01-04 18:22:13,410 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 12760 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:22:13,413 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:22:13,414 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:22:15,812 INFO [main] Started MypredlozhkabotApplication in 3.046 seconds (process running for 3.989)
+2023-01-04 18:22:36,859 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:22:40,887 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 9288 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:22:40,891 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:22:40,892 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:23:03,880 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 18:23:03,897 INFO [main] Started MypredlozhkabotApplication in 23.662 seconds (process running for 24.589)
+2023-01-04 18:23:09,978 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 17560 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:23:09,980 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:23:09,983 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:23:26,592 ERROR [main] Error occurred: Error removing old webhook
+2023-01-04 18:23:26,613 INFO [main] Started MypredlozhkabotApplication in 17.289 seconds (process running for 18.223)
+2023-01-04 18:23:32,893 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 5856 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:23:32,895 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:23:32,896 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:24:03,100 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 10268 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:24:03,101 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:24:03,102 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:24:04,823 INFO [main] Started MypredlozhkabotApplication in 2.194 seconds (process running for 2.929)
+2023-01-04 18:24:25,847 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:24:27,362 ERROR [MyPredlozhkaBot Telegram Executor] Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
+	at com.ognevoydev.mypredlozhkabot.bot.MyPredlozhkaBot.onUpdateReceived(MyPredlozhkaBot.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2023-01-04 18:24:34,101 ERROR [MyPredlozhkaBot Telegram Executor] Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
+	at com.ognevoydev.mypredlozhkabot.bot.MyPredlozhkaBot.onUpdateReceived(MyPredlozhkaBot.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2023-01-04 18:24:39,355 ERROR [MyPredlozhkaBot Telegram Executor] Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
+	at com.ognevoydev.mypredlozhkabot.bot.MyPredlozhkaBot.onUpdateReceived(MyPredlozhkaBot.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2023-01-04 18:25:25,167 INFO [main] Starting MypredlozhkabotApplication using Java 18 with PID 18932 (C:\Users\User\Desktop\MyPredlozhkaBot\target\classes started by User in C:\Users\User\Desktop\MyPredlozhkaBot)
+2023-01-04 18:25:25,171 DEBUG [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04 18:25:25,173 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-04 18:25:27,563 INFO [main] Started MypredlozhkabotApplication in 3.162 seconds (process running for 4.078)
+2023-01-04 18:25:30,876 ERROR [MyPredlozhkaBot Telegram Executor] Error occurred: Error executing org.telegram.telegrambots.meta.api.methods.send.SendPhoto query: [400] Bad Request: wrong remote file identifier specified: Wrong string length
+2023-01-04 18:34:18,008 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:36:20,848 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:38:23,642 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:40:26,436 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:40:48,023 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:44:32,091 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:46:34,934 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
+2023-01-04 18:46:56,520 ERROR [MyPredlozhkaBot Telegram Connection] Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 10 common frames omitted
