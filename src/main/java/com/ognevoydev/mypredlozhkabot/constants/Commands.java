@@ -1,6 +1,8 @@
 package com.ognevoydev.mypredlozhkabot.constants;
 
-public class Commands {
-    public final static String START = "/start";
-    public final static String HELP = "/help";
+public interface Commands {
+
+    String START = "/start";
+    String HELP = "/help";
+
 }
