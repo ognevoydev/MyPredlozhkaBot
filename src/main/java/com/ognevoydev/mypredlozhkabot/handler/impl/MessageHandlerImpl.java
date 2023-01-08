@@ -12,12 +12,7 @@ import java.util.Optional;
 
 import static com.ognevoydev.mypredlozhkabot.utils.Utils.getMessageType;
 
-/**
- * TODO in a fact, you have 2 duplicates of {@link MessageHandler}:
- * {@link PostHandler},
- * {@link CommandHandler}
- * this needs refactor
- */
+// TODO refactor
 @Component
 @RequiredArgsConstructor
 public class MessageHandlerImpl implements MessageHandler {

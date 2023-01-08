@@ -36,9 +36,12 @@ public class Mapper {
 
         Media.MediaType mediaType = getMediaType(message);
         Function<Message, InputFile> receiveInputFile = RECEIVE_MESSAGE_DATA_FUNCTIONS.get(mediaType);
-        if (receiveInputFile == null) throw new UnsupportedOperationException("Receive file from message with %s media type is unsupported yet.".formatted(mediaType));
+        if (receiveInputFile == null)
+            throw new UnsupportedOperationException(
+                    "Receive file from message with %s media type is unsupported yet."
+                            .formatted(mediaType));
 
-        return new Media(caption, receiveInputFile.apply(message), PHOTO);
+        return new Media(caption, receiveInputFile.apply(message), mediaType);
     }
 
 }

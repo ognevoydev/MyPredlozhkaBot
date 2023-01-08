@@ -36,7 +36,6 @@ public class ChatManager {
             bot.execute(method);
         } else if (messageBody instanceof PartialBotApiMethod<? extends Serializable> partialMethod) {
             executePartial(bot, partialMethod);
-        } else {
             bot.execute(replyFactory.generate(POST_REPLY, userMessage.getChatId(), userMessage.getMessageId()).getMessage());
         }
     }
