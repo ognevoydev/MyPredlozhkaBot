@@ -20,7 +20,8 @@ public class ReplyFactory {
 
     public ReplyFactory(SendMessageFactory sendMessageFactory, List<PartialMethodFactory<?>> partialMethodFactories) {
         this.sendMessageFactory = sendMessageFactory;
-        this.partialMethodFactories = partialMethodFactories.stream().collect(Collectors.toMap(PartialMethodFactory::getMediaType, Function.identity()));
+        this.partialMethodFactories = partialMethodFactories.stream()
+                .collect(Collectors.toMap(PartialMethodFactory::getMediaType, Function.identity()));
     }
 
     public Reply<SendMessage> generate(String message, long chatID) {
