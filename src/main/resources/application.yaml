@@ -1,4 +1,4 @@
 bot:
   name: MyPredlozhkaBot
-  token: ${BOT_TOKEN}
-  admin-id: ${ADMIN_ID}
+  token:
+  admin-id:

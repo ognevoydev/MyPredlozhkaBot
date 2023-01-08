@@ -6,5 +6,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import java.util.Optional;
 
 public interface UpdateHandler {
+
     Optional<Reply<?>> handle(Update update);
+
 }
