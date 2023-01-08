@@ -389,7 +389,7 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
-	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(MainPostHandler.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -401,7 +401,7 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" b
 java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
-	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(MainPostHandler.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)
@@ -413,7 +413,7 @@ java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" b
 java.lang.NullPointerException: Cannot invoke "java.io.File.getAbsolutePath()" because the return value of "org.telegram.telegrambots.meta.api.objects.InputFile.getNewMediaFile()" is null
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.generatePost(PhotoPostHandler.java:43)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.post.PhotoPostHandler.handle(PhotoPostHandler.java:34)
-	at com.ognevoydev.mypredlozhkabot.handler.impl.post.MainPostHandler.handle(MainPostHandler.java:30)
+	at com.ognevoydev.mypredlozhkabot.handler.impl.MainPostHandler.handle(MainPostHandler.java:30)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handleMedia(MessageHandlerImpl.java:41)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.MessageHandlerImpl.handle(MessageHandlerImpl.java:32)
 	at com.ognevoydev.mypredlozhkabot.handler.impl.UpdateHandlerImpl.handle(UpdateHandlerImpl.java:23)

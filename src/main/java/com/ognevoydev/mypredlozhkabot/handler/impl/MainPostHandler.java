@@ -1,4 +1,4 @@
-package com.ognevoydev.mypredlozhkabot.handler.impl.post;
+package com.ognevoydev.mypredlozhkabot.handler.impl;
 
 import com.ognevoydev.mypredlozhkabot.confg.BotConfig;
 import com.ognevoydev.mypredlozhkabot.handler.api.PostHandler;
