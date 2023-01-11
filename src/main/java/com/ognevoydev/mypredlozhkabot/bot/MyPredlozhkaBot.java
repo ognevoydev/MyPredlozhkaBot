@@ -17,7 +17,7 @@ public class MyPredlozhkaBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        updateHandler.handle(update).ifPresent(message ->
+        updateHandler.handle(update, config.getAdminId()).ifPresent(message ->
                 chatManager.sendMessage(this, message, update.getMessage()));
     }
 

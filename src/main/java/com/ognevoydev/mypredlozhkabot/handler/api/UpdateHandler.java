@@ -7,6 +7,6 @@ import java.util.Optional;
 
 public interface UpdateHandler {
 
-    Optional<Reply<?>> handle(Update update);
+    Optional<Reply<?>> handle(Update update, long adminId);
 
 }
