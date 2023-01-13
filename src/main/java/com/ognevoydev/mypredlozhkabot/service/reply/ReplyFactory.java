@@ -18,7 +18,8 @@ public class ReplyFactory {
     private final SendMessageFactory sendMessageFactory;
     private final Map<Media.MediaType, PartialMethodFactory<?>> partialMethodFactories;
 
-    public ReplyFactory(SendMessageFactory sendMessageFactory, List<PartialMethodFactory<?>> partialMethodFactories) {
+    public ReplyFactory(SendMessageFactory sendMessageFactory,
+                        List<PartialMethodFactory<?>> partialMethodFactories) {
         this.sendMessageFactory = sendMessageFactory;
         this.partialMethodFactories = partialMethodFactories.stream()
                 .collect(Collectors.toMap(PartialMethodFactory::getMediaType, Function.identity()));

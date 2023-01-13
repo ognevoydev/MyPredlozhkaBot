@@ -5,6 +5,7 @@ import com.ognevoydev.mypredlozhkabot.model.MessageType;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.PhotoSize;
 
+import java.security.InvalidParameterException;
 import java.util.Comparator;
 import java.util.List;
 
@@ -20,9 +21,14 @@ public class Utils {
     }
 
     public static Media.MediaType getMediaType(Message message) {
-        if (message.hasPhoto()) return PHOTO;
-        if (message.hasVideo()) return VIDEO;
-        else return ANIMATION;
+        if(getMessageType(message).equals(MEDIA)) {
+            if (message.hasPhoto()) return PHOTO;
+            if (message.hasVideo()) return VIDEO;
+            else return ANIMATION;
+        }
+        else throw new InvalidParameterException(
+                "Message with type %s can not have media type."
+                        .formatted(getMessageType(message)));
     }
 
     public static String getMaxSizePhoto(List<PhotoSize> photos) {
