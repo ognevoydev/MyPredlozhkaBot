@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.1</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.ognevoydev</groupId>
 	<artifactId>mypredlozhkabot</artifactId>
@@ -18,6 +18,8 @@
 		<telegram.version>6.3.0</telegram.version>
 	</properties>
 	<dependencies>
+
+		<!-- Spring -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -43,6 +45,15 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+		</dependency>
+
+		<!-- Tests -->
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.9.2</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
